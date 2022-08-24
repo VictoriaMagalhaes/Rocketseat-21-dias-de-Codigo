@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background: rgb(247,148,205);
+    background: linear-gradient(139deg, rgba(247,148,205,1) 0%, rgba(101,162,207,1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+
+   text-decoration: none; 
+   font-size: 18px;
+   letter-spacing: 2px;
+   border-radius: 40px;
+   color: #fffdd0;
+   background:#f794cd;
+
+   transition-property: all;
+   transition-duration: 1s;
+}
+
+a:hover {
+    background-color: #65a2cf;
+    transition-property: background-color;
+    transition-duration: 2s;
+    
+}
+
